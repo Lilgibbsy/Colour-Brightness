@@ -7,6 +7,29 @@
   </head>
 
   <body>
-    <h1>Color Brightness Calculator</h1>
+    <div><h1>Color Brightness Calculator</h1>
+      <p>
+        <img src="img/luminance-formula.png" alt="Luminace Formula" />
+      </p>
+  
+      <p>
+        The perceived <strong>brightness</strong> or <strong>luminance</strong> of
+        a color may be calculated using the
+        <a href="https://www.w3schools.com/colors/colors_rgb.asp" target="_blank"
+          >RGB vlaues</a
+        >
+        of the color.
+      </p>
+  
+      <p>
+        R: <input type="number" id="rIn" value="0"/> G: <input type="number" id="gIn" value="0"/> B:
+        <input type="number" id="bIn" value="0"/> <button id="btn">Calculate Luminace</button>
+  
+        <hr>
+  
+        <p class="luminance">Lumanice = <span id="output">0</span></p>
+      </p></div>
+    
+    <script src="script.js"></script>
   </body>
 </html>

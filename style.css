@@ -1,1 +1,48 @@
 /* CSS Stylesheet */
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+div {
+  background-color: white;
+  width: 800px;
+  margin: auto;
+  padding: 10px 50px;
+  border-radius: 25px;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-variant: small-caps;
+  margin: 30px 0px;
+}
+input {
+  width: 60px;
+  font-size: 18px;
+}
+button {
+  background-color: rgb(60, 60, 60);
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  padding: 5px 20px;
+  border-radius: 10px;
+  margin-left: 25px;
+  font-size: 22px;
+}
+button:hover {
+  background-color: rgb(180, 180, 180);
+  color: black;
+  cursor: pointer;
+}
+hr {
+  width: 700px;
+}
+.luminance {
+  font-size: 32px;
+}
+a {
+  color: red;
+}
+a:hover {
+  text-decoration: underline;
+}
